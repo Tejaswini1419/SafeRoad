@@ -2,13 +2,54 @@
 <html>
 <head>
 <title>SafeRoad</title>
+
+<style>
+body{
+    font-family: Arial;
+    text-align:center;
+    background:#f2f2f2;
+}
+
+h1{
+    color:green;
+}
+
+.box{
+    background:white;
+    padding:20px;
+    margin:50px;
+    border-radius:10px;
+}
+</style>
+
 </head>
 
 <body>
 
-<h1>SafeRoad Project</h1>
+<div class="box">
 
-<p>My GitHub Pages website</p>
+<h1>SafeRoad 🚗</h1>
+
+<h2>Road Safety Route System</h2>
+
+<p>Find safer routes and avoid accident-prone roads.</p>
+
+<button onclick="show()">Check Route</button>
+
+<p id="result"></p>
+
+</div>
+
+
+<script>
+
+function show(){
+document.getElementById("result").innerHTML =
+"Safe route selected ✅";
+}
+
+</script>
+
 
 </body>
 </html>
